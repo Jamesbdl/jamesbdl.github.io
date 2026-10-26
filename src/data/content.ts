@@ -18,6 +18,7 @@ export const nav = [
   { label: 'About', id: 'about' },
   { label: 'Skills', id: 'skills' },
   { label: 'Work', id: 'work' },
+  { label: 'Builds', id: 'builds' },
   { label: 'Experience', id: 'experience' },
   { label: 'Principles', id: 'principles' },
   { label: 'Credentials', id: 'credentials' },
@@ -176,6 +177,38 @@ export const projects = [
     org: 'DELVAR S.A.C.',
     text: 'Cash-flow forecasting models and pricing structures across multi-product B2B energy lines, boosting portfolio profitability by 12%.',
     tags: ['Financial modeling', 'Pricing'],
+  },
+]
+
+// Source: README files of the (private) GitHub repositories. No links, no screenshots.
+export const builds = [
+  {
+    n: '01',
+    title: 'FinVoz',
+    tagline: 'A voice-first, local-first personal finance app',
+    status: 'Private repository',
+    text: 'A progressive web app for recording and managing financial operations by speaking or typing in natural language, built around immutable double-entry accounting, strict privacy and zero runtime dependencies.',
+    points: [
+      'Quick-capture console: say or type "I spent 12 euros on coffee with the card" and get a proposal to confirm.',
+      'Nothing is saved without explicit user approval — discarding a proposal leaves no trace in the ledger.',
+      'Manual entry is always available next to voice, with real-time validation.',
+      'Five clear capture states: idle, listening, transcribing, proposal to confirm and error.',
+    ],
+    tags: ['PWA', 'Voice-first', 'Local-first', 'Double-entry accounting', 'TypeScript'],
+  },
+  {
+    n: '02',
+    title: 'AI Engineering OS',
+    tagline: 'A standard — and future generator — for AI-assisted projects',
+    status: 'Private repository · design stage',
+    text: 'The operating standard for how my AI-assisted projects (Claude, Codex, Antigravity) are created, validated, documented and synchronized, including the rules that govern its own evolution.',
+    points: [
+      'Defines scripted project creation and validation so every new project starts from the same foundation.',
+      'A canonical project schema and a catalog of profiles and modules.',
+      'Written operating rules, so every project follows the same documented process.',
+      'Currently at "Project 0": the design bootstrap.',
+    ],
+    tags: ['AI-assisted engineering', 'Standards', 'PowerShell', 'Governance'],
   },
 ]
 

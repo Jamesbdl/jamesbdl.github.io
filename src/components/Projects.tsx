@@ -2,7 +2,8 @@ import { useEffect, useRef, type MouseEvent } from 'react'
 import { gsap, reducedMotion } from '../lib/motion'
 import { jadeFlow, jadeTerminal, projects } from '../data/content'
 import { asset } from '../lib/asset'
-import { Eyebrow, ParallaxImage, Reveal, SplitHeading } from './Reveal'
+import LoopVideo from './LoopVideo'
+import { Eyebrow, Reveal, SplitHeading } from './Reveal'
 
 function JadeFeature() {
   const root = useRef<HTMLDivElement>(null)
@@ -115,8 +116,9 @@ export default function Projects() {
             />
           </div>
           <Reveal className="hidden md:col-span-4 md:block">
-            <ParallaxImage
-              src={asset('img/projects.webp')}
+            <LoopVideo
+              src={asset('video/work.mp4')}
+              fallback={asset('img/projects.webp')}
               alt="James Delgado in cinematic profile with a cross earring, black and white portrait"
               className="aspect-[4/5] w-full max-w-[260px] rounded-sm border border-white/10 md:ml-auto"
             />

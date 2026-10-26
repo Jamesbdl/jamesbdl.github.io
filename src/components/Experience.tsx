@@ -2,7 +2,8 @@ import { useEffect, useRef } from 'react'
 import { gsap, reducedMotion } from '../lib/motion'
 import { experience } from '../data/content'
 import { asset } from '../lib/asset'
-import { Eyebrow, ParallaxImage, Reveal, SplitHeading } from './Reveal'
+import LoopVideo from './LoopVideo'
+import { Eyebrow, Reveal, SplitHeading } from './Reveal'
 
 export default function Experience() {
   const wrap = useRef<HTMLDivElement>(null)
@@ -30,14 +31,15 @@ export default function Experience() {
       <div className="mx-auto grid max-w-7xl gap-16 md:grid-cols-12">
         <div className="md:col-span-4">
           <div className="md:sticky md:top-28">
-            <Eyebrow n="04" label="Experience" />
+            <Eyebrow n="05" label="Experience" />
             <SplitHeading
               text="Six years, one thread: control at scale."
               className="font-serif text-5xl leading-[1.02] text-bone md:text-6xl"
             />
             <Reveal className="mt-10 hidden md:block">
-              <ParallaxImage
-                src={asset('img/experience.webp')}
+              <LoopVideo
+                src={asset('video/experience.mp4')}
+                fallback={asset('img/experience.webp')}
                 alt="James Delgado with hands joined in a steeple, rings and ascot visible, black and white portrait"
                 className="aspect-[4/5] w-full rounded-sm border border-white/10"
               />

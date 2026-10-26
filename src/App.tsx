@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { ScrollTrigger } from './lib/motion'
 import About from './components/About'
+import Builds from './components/Builds'
 import Contact from './components/Contact'
 import Credentials from './components/Credentials'
 import Cursor from './components/Cursor'
@@ -53,6 +54,7 @@ export default function App() {
         <About />
         <Skills />
         <Projects />
+        <Builds />
         <Experience />
         <Principles />
         <Credentials />

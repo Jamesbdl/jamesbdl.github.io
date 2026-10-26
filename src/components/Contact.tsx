@@ -35,7 +35,7 @@ export default function Contact() {
 
       <div className="relative z-10 mx-auto flex max-w-7xl px-6 pb-24 md:min-h-[100svh] md:items-center md:px-16 md:py-40">
         <div className="md:w-[48%]">
-          <Eyebrow n="07" label="Contact" />
+          <Eyebrow n="08" label="Contact" />
           <SplitHeading
             text="Let's talk operations, automation and what comes next."
             className="font-serif text-5xl leading-[1.02] text-bone md:text-6xl"

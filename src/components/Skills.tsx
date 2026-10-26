@@ -1,6 +1,7 @@
 import { skillGroups } from '../data/content'
 import { asset } from '../lib/asset'
-import { Eyebrow, ParallaxImage, Reveal, SplitHeading } from './Reveal'
+import LoopVideo from './LoopVideo'
+import { Eyebrow, Reveal, SplitHeading } from './Reveal'
 
 export default function Skills() {
   return (
@@ -9,8 +10,9 @@ export default function Skills() {
         <div className="md:col-span-5">
           <div className="md:sticky md:top-28">
             <Reveal>
-              <ParallaxImage
-                src={asset('img/skills.webp')}
+              <LoopVideo
+                src={asset('video/skills.mp4')}
+                fallback={asset('img/skills.webp')}
                 alt="James Delgado adjusting his jacket, wrist watch and skull rings visible, black and white portrait"
                 className="aspect-[4/5] w-full rounded-sm border border-white/10"
               />
