@@ -1,4 +1,4 @@
-import { education, profile } from '../data/content'
+import { education } from '../data/content'
 import { asset } from '../lib/asset'
 import LoopVideo from './LoopVideo'
 import { Eyebrow, Reveal, SplitHeading } from './Reveal'
@@ -57,11 +57,6 @@ export default function Credentials() {
               })}
             </div>
 
-            <Reveal className="mt-10 rounded-sm border border-white/10 p-8">
-              <p className="font-mono text-[11px] tracking-[0.3em] text-gold uppercase">Currently</p>
-              <p className="mt-3 font-serif text-3xl leading-snug text-bone">{profile.current}</p>
-              <p className="mt-3 text-silver">Working toward the PMP and CFA Level I credentials.</p>
-            </Reveal>
           </div>
         </div>
       </div>

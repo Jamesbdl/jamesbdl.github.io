@@ -219,20 +219,20 @@ export const experience = [
     period: '2025 – Present',
     bullets: [
       {
-        lead: 'Architected & deployed JADE OS',
-        text: 'a centralized operations platform using Python and automated validation algorithms, deploying 37 process automations across investment and risk desks.',
+        lead: 'Built JADE OS',
+        text: 'a centralized platform in Python with automated validation, running 37 process automations across the investment and risk desks.',
       },
       {
-        lead: 'Mission-critical trade validation',
-        text: 'primary gatekeeper for the investment desk, auditing high-value pre-settlement transactions (Forwards, Money Market, Fund of Funds) prior to custodial execution.',
+        lead: 'Trade gatekeeper',
+        text: 'audit high-value pre-settlement trades (Forwards, Money Market, Fund of Funds) before custodial execution.',
       },
       {
         lead: 'On-premise ML & AI tooling',
-        text: 'built an on-premise machine-learning parser for document ingestion under strict banking regulation; used Claude Code and Antigravity to accelerate module development by 50%.',
+        text: 'a regulation-compliant document parser; Claude Code and Antigravity cut module development time by 50%.',
       },
       {
-        lead: 'Counterparty & SABs governance',
-        text: 'led onboarding and operational relationship governance with institutional counterparties, brokers and local brokerage firms, supervising downstream execution by the Custodian.',
+        lead: 'Counterparty governance',
+        text: 'onboarding and oversight of counterparties, brokers and SABs, supervising custodian execution.',
       },
     ],
   },
@@ -242,55 +242,39 @@ export const experience = [
     period: '2024 – 2025',
     bullets: [
       {
-        lead: 'Securities settlement & custody',
-        text: 'executed high-volume settlement across domestic and offshore depositories, including CAVALI (Peru) and Brown Brothers Harriman (international).',
+        lead: 'Settlement & custody',
+        text: 'high-volume trades across CAVALI (Peru) and BBH (international), plus Money Market and Fund of Funds flows.',
       },
       {
-        lead: 'Money Market administration',
-        text: 'managed the lifecycle of Money Market instruments (constitutions, renewals, cancellations) and high-volume subscription and redemption flows for Fund of Funds.',
+        lead: 'Governance',
+        text: 'rebuilt the apoderados framework into an auditable institutional standard.',
       },
       {
-        lead: 'Proxy & governance standardization',
-        text: 'redesigned the apoderados governance framework from an unstructured manual process into an auditable institutional standard.',
-      },
-      {
-        lead: 'ETL & process automation',
-        text: 'programmed extraction scripts in VBA and Google Apps Script, eliminating 15+ hours of weekly manual reporting.',
+        lead: 'Automation',
+        text: 'VBA and Apps Script reporting that saved 15+ hours every week.',
       },
     ],
   },
   {
     company: 'DELVAR S.A.C.',
-    role: 'Operations & Commercial Associate (Promoted)',
-    period: '2021 – 2024',
+    role: 'Commercial & Financial Analyst → Operations & Commercial Associate (promoted)',
+    period: '2019 – 2024',
     bullets: [
+      {
+        lead: 'Pricing & forecasting',
+        text: 'cash-flow and pricing models across B2B energy lines, lifting portfolio profitability by 12%.',
+      },
       {
         lead: 'Supply chain & working capital',
-        text: 'engineered multi-warehouse replenishment models and working-capital controls, decreasing stock-out incidents and holding costs.',
+        text: 'multi-warehouse replenishment models that cut stock-outs and holding costs.',
       },
       {
-        lead: 'Executive BI architecture',
-        text: 'designed and deployed Power BI dashboards tracking AR/AP, gross margins and operational KPIs for senior leadership.',
-      },
-    ],
-  },
-  {
-    company: 'DELVAR S.A.C.',
-    role: 'Commercial & Financial Analyst',
-    period: '2019 – 2021',
-    bullets: [
-      {
-        lead: 'Financial modeling & pricing',
-        text: 'built cash-flow forecasting models and pricing structures across multi-product B2B energy lines, boosting portfolio profitability by 12%.',
-      },
-      {
-        lead: 'Cost structure optimization',
-        text: 'evaluated supplier contracts and logistics cost breakdowns to optimize unit margins across regional distribution channels.',
+        lead: 'Executive BI',
+        text: 'Power BI dashboards for AR/AP, gross margin and KPIs used by senior leadership.',
       },
     ],
   },
 ]
-
 export const education = [
   {
     title: 'B.Sc. in Industrial Engineering',
